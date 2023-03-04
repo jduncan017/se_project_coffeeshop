@@ -1,0 +1,35 @@
+.card {
+  width: 540px;
+}
+
+.card:nth-last-child(1) {
+  margin: auto;
+}
+
+.card__title {
+  text-align: left;
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card__list-item {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: left;
+  margin-bottom: 16px;
+  font-family: "noto serif", "Times New Roman", serif;
+}
+
+.card__list-item:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid;
+  border-color: black;
+  flex-grow: 1;
+}
