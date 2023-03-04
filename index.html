@@ -42,18 +42,16 @@
             </li>
           </ul>
         </nav>
-        <div class="header__title">
-          <h1 class="header__title">
-            <span class="header__span-accent">Specialty coffee</span>
-            <span class="header__span-regular">in the Practicum Library</span>
-          </h1>
-        </div>
-        <div class="header__description">
-          <p class="header__description">
-            Welcome to our study zone! We've got the coffee to energize you and
-            the cozy vibes to help you get creative.
-          </p>
-        </div>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty coffee</span>
+          <!-- Span below was instructed in the brief as a way to make a break in the text without using </br>. -->
+          <!-- I did apply everything except inline block to the "Header__title" tag however. -->
+          <span class="header__span-regular">in the Practicum Library</span>
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
         <img
           src="./images/inside_coffee_shop.png"
           alt="inside the coffee shop"
@@ -61,26 +59,22 @@
         />
         <div class="header__footer">
           <div class="header__footer-hours">
-            <ul class="header__footer-hours-list">
-              <li>Hours:</li>
-              <li>Monday - Friday (10:00 - 19:00</li>
-              <li>Saturday - Sunday (11:00 - 18:00</li>
-            </ul>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
-          <div class="header__footer-address">
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Practicum
-          </div>
+          </p>
         </div>
       </header>
       <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
-          <div class="recipes__subtitle">
-            <p>
-              Check out some recipes we've collected for your home-brewing
-              convenience:
-            </p>
-          </div>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
           <div class="recipes__videos">
             <div class="recipes__videowrapper">
               <iframe
@@ -88,9 +82,9 @@
                 allowfullscreen
                 class="recipes__iframe"
               ></iframe>
-              <div class="recipes__video-caption">
-                <p>Aeropress recipe</p>
-                <p>~5 min</p>
+              <div class="recipes__video-caption-wrapper">
+                <p class="recipes__video-caption">Aeropress recipe</p>
+                <p class="recipes__video-caption">~5 min</p>
               </div>
             </div>
             <div class="recipes__videowrapper">
@@ -99,9 +93,9 @@
                 allowfullscreen
                 class="recipes__iframe"
               ></iframe>
-              <div class="recipes__video-caption">
-                <p>French press recipe</p>
-                <p>~15 min</p>
+              <div class="recipes__video-caption-wrapper">
+                <p class="recipes__video-caption">French press recipe</p>
+                <p class="recipes__video-caption">~15 min</p>
               </div>
             </div>
           </div>
@@ -145,7 +139,7 @@
               />
             </fieldset>
             <button type="submit" class="form__button">Book a table</button>
-            <fieldset class="form__fieldset form__fieldset_checkbox">
+            <fieldset class="form__fieldset form__fieldset_terms">
               <input
                 type="checkbox"
                 class="form__checkbox"
@@ -153,7 +147,7 @@
                 id="terms-of-use"
                 required
               />
-              <label class="form__label form__label_checkbox" for="terms-of-use"
+              <label class="form__label form__label_terms" for="terms-of-use"
                 >I agree with the terms of use</label
               >
             </fieldset>
@@ -161,14 +155,14 @@
         </section>
         <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
-          <h3 class="menu__subtitle">
+          <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
-          </h3>
+          </p>
           <div class="menu__cards">
             <div class="card">
-              <h4 class="card__title">Filter</h4>
-              <ul>
+              <h3 class="card__title">Filter</h3>
+              <ul class="card__list">
                 <li class="card__list-item">
                   Regular (12 oz)
                   <span class="card__list-divider"></span>
@@ -197,8 +191,8 @@
               </ul>
             </div>
             <div class="card">
-              <h4 class="card__title">Espresso</h4>
-              <ul>
+              <h3 class="card__title">Espresso</h3>
+              <ul class="card__list">
                 <li class="card__list-item">
                   Macchiato
                   <span class="card__list-divider"></span>
@@ -222,8 +216,8 @@
               </ul>
             </div>
             <div class="card">
-              <h4 class="card__title">Baked Goods</h4>
-              <ul>
+              <h3 class="card__title">Baked Goods</h3>
+              <ul class="card__list">
                 <li class="card__list-item">
                   Almond Croissant
                   <span class="card__list-divider"></span>

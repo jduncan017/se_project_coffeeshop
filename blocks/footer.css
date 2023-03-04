@@ -26,10 +26,6 @@
   margin-bottom: 4px;
 }
 
-.footer__column_content_logo {
-  flex-grow: 1;
-}
-
 .footer__logo {
   width: 116px;
   height: 21px;
