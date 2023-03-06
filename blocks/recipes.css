@@ -5,7 +5,7 @@
   background-size: cover;
   background-position: center;
   color: #fff;
-  padding: 100px 100px 0 80px;
+  padding: 100px 0 0 80px;
 }
 
 .recipes__title {
@@ -30,9 +30,6 @@
   margin-top: 80px;
   gap: 40px;
   padding: 0 0 215px;
-}
-
-.recipes__videowrapper {
 }
 
 .recipes__iframe {

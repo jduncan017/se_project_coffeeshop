@@ -27,9 +27,6 @@
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   color: #2f80ed;
-}
-
-.header__span-regular {
   display: block;
 }
 
@@ -57,9 +54,6 @@
   font-weight: 500;
   color: #838383;
   margin-top: auto;
-}
-
-.header__footer-hours {
 }
 
 .header__paragraph {
